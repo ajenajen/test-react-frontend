@@ -1,0 +1,38 @@
+.App {
+  font-family: Prompt;
+  font-size: 12px;
+}
+@media screen and (min-width: 567px) {
+  .App {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .App {
+    font-size: 16px;
+  }
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  border: 0;
+}
+button {
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  transition: all 0.5s;
+}
+button:hover {
+  opacity: 0.75;
+}
+button:focus {
+  border: 0;
+  box-shadow: none;
+  outline: none !important;
+}
+.border-right {
+  border-right: 1px solid #d8d8d8;
+}
